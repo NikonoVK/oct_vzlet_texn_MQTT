@@ -1,4 +1,5 @@
 #include <WiFi.h>
+#include "bright.h"
 extern "C"
 {
 #include "freertos/FreeRTOS.h"
@@ -163,4 +164,5 @@ void loop()
 
   // Небольшая задержка для стабильности
   delay(100);
+
 }
